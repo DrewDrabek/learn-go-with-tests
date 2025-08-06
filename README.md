@@ -28,3 +28,16 @@ Writing a test is just like writing a function, with a few rules
 - The test function takes one argument only t *testing.T
 - To use the *testing.T type, you need to import "testing", like we did with fmt in the other file
 ```
+
+Formatting Information:
+
+While there is more this is really what I care about and I can use most often
+
+```text
+%v	the value in a default format
+	when printing structs, the plus flag (%+v) adds field names
+%#v	a Go-syntax representation of the value
+	(floating-point infinities and NaNs print as ±Inf and NaN)
+%T	a Go-syntax representation of the type of the value
+%%	a literal percent sign; consumes no value
+```
