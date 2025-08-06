@@ -41,3 +41,13 @@ While there is more this is really what I care about and I can use most often
 %T	a Go-syntax representation of the type of the value
 %%	a literal percent sign; consumes no value
 ```
+
+Items I learned here:
+
+- If statements
+- Function syntax
+- Named returns
+- Switch statements
+- Unit tests 
+- Variable creation
+- Const creation
