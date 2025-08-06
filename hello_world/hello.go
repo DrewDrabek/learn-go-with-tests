@@ -4,15 +4,19 @@ import "fmt"
 
 const englishHello = "Hello, "
 
-func Hello(user string) string {
+func Hello(user string, language string) string {
 
-	if user != "" {
-		return englishHello + user + "!"
-	} else {
-		return "Hello, World"
+	if user == "" {
+		user = "World"
 	}
+	if language == "Spanish" {
+		return "Hola, " + user
+	}
+
+	return englishHello + user
+
 }
 
 func main() {
-	fmt.Println(Hello("Drew"))
+	fmt.Println(Hello("Drew", "Spanish"))
 }
