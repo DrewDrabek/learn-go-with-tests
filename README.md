@@ -3,6 +3,7 @@ Used to store learn go with tests items
 
 # Table of contents
 - [Hello World](#hello-world)
+- [Integers](#integers)
 
 
 
@@ -51,3 +52,13 @@ Items I learned here:
 - Unit tests 
 - Variable creation
 - Const creation
+
+## Integers
+
+This was the second lesson that I learned here and is mostly about integers and aditional testing practice. 
+
+There were not a lot of additional things here that I leaned but I did also learn about the example functions that can written in the tests. These
+are for tests that are mostly for distributed items where we can give example functions that run and pass as the code is currently. These run when 
+the tests are called.
+
+Nothing else here this was quick.
