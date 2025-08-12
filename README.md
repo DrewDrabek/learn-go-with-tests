@@ -4,6 +4,7 @@ Used to store learn go with tests items
 # Table of contents
 - [Hello World](#hello-world)
 - [Integers](#integers)
+- [Iterations](#iteration)
 
 
 
@@ -62,3 +63,23 @@ are for tests that are mostly for distributed items where we can give example fu
 the tests are called.
 
 Nothing else here this was quick.
+
+
+## Iteration
+
+This lesson was mainly about how iteration works in go
+
+There are not while, do, until or any other keywords other than `for` in golang. This can do all iteration and makes it easy to work with.
+
+In this lesson I also learned about benchmarking in go lang and the importance of the standard library.
+
+in order to do benchmarking you can use the testing.B object. This will test it on your system and give it its average run time.
+
+The syntax for the for loop is:
+
+```text
+
+for i := 0 ; i < 5; i ++ {
+	
+}
+```
