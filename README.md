@@ -83,3 +83,29 @@ for i := 0 ; i < 5; i ++ {
 	
 }
 ```
+
+## Arrays/Slices
+
+Learned about the following types:
+
+- Arrays - these are lists that have a fixed length and can only be compared to lists of the same kind 
+
+Decleration : [5]int{1,2,3,4,5}
+
+- Slices - these are lists that do not have a predetermined size. This is what I am going to use most often.
+
+Deceleration: []int{}
+
+- We can also use the make function with slices and other things like maps. It
+allows you to specify the default size of the underlying list and the memory allocation. This
+can be beneificial for creating slices and other items.
+
+Decleration: sums := make([]int, someCounter)
+
+You can also slice a slice. This is something like [1:] this will take everything starting
+at the first character in the slice and go on and Vice versa if it was the other way.
+
+The `len` function is used to get the length of the tool.
+
+I also learned about test tool coverage and reflect.DeepEqual to compare items that might no be normally comparable.
+But be careful when using this as its not type safe. 
